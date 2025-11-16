@@ -1,0 +1,60 @@
+# -------------------------------
+# Frontend (React / Node / Vite / CRA)
+# -------------------------------
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.cache/
+/frontend/.next/
+/frontend/out/
+/frontend/*.tsbuildinfo
+
+# Logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+/frontend/*.log
+
+# Env files (seguridad)
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.*.local
+
+# -------------------------------
+# Backend (Spring Boot / Java / Maven / Gradle)
+# -------------------------------
+/backend/target/
+/backend/build/
+/backend/out/
+/backend/.gradle/
+
+# Logs
+/backend/*.log
+
+# IDE / Editor
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+/.vscode/
+
+# Java compiled
+/backend/**/*.class
+/backend/**/*.war
+/backend/**/*.ear
+
+# Config sensible
+/backend/*.env
+/backend/src/main/resources/application.yml
+/backend/src/main/resources/application.properties
+
+# -------------------------------
+# Global
+# -------------------------------
+.DS_Store
+Thumbs.db
+.env
+backend/logs/tuticket.log
+*.gz
